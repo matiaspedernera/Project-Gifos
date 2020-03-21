@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIFOS</title>
+    <link id="style" rel="stylesheet" href="./styles/stylesDark.css" >
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <script src="./js/index..js"></script>
+    
+</head>
+<body>
+
+    <aside class="bienvenidos">
+        <h1>Bienvenidos/as a Guifos.com!------Dónde los gifs están.////// Número de visitas: 12.765.803 </h1>
+    </aside>
+
+    <header>
+
+    
+        <img src="./assets/gifOF_logo.png" alt="logo" class="logoLight">
+        <img src="./assets/gifOF_logo_dark.png" alt="logoDark" class="logoDark">
+        
+    <nav class="navbar">
+        <button class="crear" >Crear Guifos</button>
+        <button class="tema">Elegir Tema</button>
+        <!-- <input type="checkbox" id="btnmenu"> -->  
+        <ul class="submenu">  
+            <li class="btnmenu"><img src="./assets/dropdown.svg" alt="dropdown"></li>
+            <div class="liContainer">
+                <li class="temas" ><a href="" id="light"> Sailor Day</a></li>
+                <li class="temas" ><a href="" id="dark"> Saylor Night</a></li>
+            </div>
+        </ul>
+        <a href="./misGuifos.html" class="misGuifos"><p>Mis Guifos</p></a>
+        
+    </nav>
+    </header>
+
+    <section class="buscar">
+        
+            <h2>Buscar</h2>
+        
+        <input type="search" id="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">  
+        <button id="searchButton" class="searchButtonActive"><img src="assets/lupa.svg" alt="">Buscar</button> 
+    </section>
+    
+    <div class="busquedasSugeridas">
+        <button class="sugerida" id="TWD">The Walking Dead </button>
+        <button class="sugerida" id="RM">Rick and Morty</button>
+        <button class="sugerida" id="BH">Bojack Horseman </button>
+    </div>
+
+    <!-- <div class="buscados">
+        <button><p>#UnaBusqueda</p> </button>
+        <button><p>#Otra</p> </button>
+        <button><p>#YUnaMaaaaaaassssssssss</p> </button>
+    </div> -->
+    
+    <section class="sugerencia">
+        <h2 id=pSugerencia>Hoy te sugerimos:</h2>
+        <div id="opciones">
+            <div class="opcion">
+                <div class="opcionName">
+                    <h3 class="name">#Kitten</h3>
+                    <img class="cerrar" src="./assets/button3.svg" alt="cerrar">
+                </div>
+                <div class="contenido">
+                    <img src="./assets/33.gif" alt="gif1" class="gif1" title="gif 1" id="gifCat">
+                    <button id="verMasKitten">Ver más…</button>                     
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcionName">
+                    <h3 class="name">#Puppy</h3>
+                    <img class="cerrar" src="./assets/button3.svg" alt="cerrar">
+                </div>
+                <div class="contenido">
+                    <img src="./assets/33.gif" alt="gif1" class="gif1" title="gif 2" id="gifDog">
+                    <button id="verMasPuppy">Ver más…</button>                     
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcionName">
+                    <h3 class="name">#Turtle</h3>
+                    <img class="cerrar" src="./assets/button3.svg" alt="cerrar">
+                </div>
+                <div class="contenido">
+                    <img src="./assets/33.gif" alt="gif1" class="gif1" title="gif 3" id="gifOtter">
+                    <button id="verMasTurtle">Ver más…</button>                     
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcionName">
+                    <h3 class="name">#Bunny</h3>
+                    <img class="cerrar" src="./assets/button3.svg" alt="cerrar">
+                </div>
+                <div class="contenido">
+                    <img src="./assets/33.gif" alt="gif1" class="gif1" title="gif 4" id="gifHedgehog">
+                    <button id="verMasBunny">Ver más…</button>                     
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="tendencias">
+        <h2 id=pTendencias>Tendencias</h2>
+        <div class="trendContainer">
+        </div>
+    </section>
+
+    <section class="resultados">
+        <h2 id=pResultados>Resultados</h2>
+        <div class="resContainer">
+        </div>
+    </section>
+</body>
+
+</html>

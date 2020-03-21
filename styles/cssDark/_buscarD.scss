@@ -1,0 +1,162 @@
+.buscar{
+    margin-left: 6%;
+    margin-top: 2%;
+    width: 1200px;
+    height: 99px;
+    background-color:#B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    
+        h2{
+            width: 1197px;
+            height: 24px;
+            background:  linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+            box-shadow: inset -2px 6px 2px -2px rgba(255,255,255,1);
+            margin-left: 2px;
+            padding-top: 5px;
+            font-size: 14px;
+            color: white;
+        }
+    
+    
+
+    
+    #search{
+        background-color: #FFFFFF;
+        border: 1px solid #979797;
+        width: 1057px;
+        height: 48px;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+        margin-top: 15px;
+        margin-left: 15px;
+        float: left;
+        color: #B4B4B4;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+        .searchButtonActive{
+            
+            width: 102px;
+            height: 36px;
+            background: #EE3EFE;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+            color:white;
+            size: 16px;
+            margin-left: 15px;
+            margin-top: 17px;
+            /* background-color: #B4B4B4; */
+            
+            img{
+                margin-right: 15px;
+                
+            }
+        }
+
+        .searchButtonInactive{
+            width: 102px;
+            height: 36px;
+            background: #B4B4B4;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;    
+            color: #8F8F8F;
+            size: 16px;
+            margin-left: 15px;
+            margin-top: 17px;
+            img{
+                margin-right: 15px;
+            }
+
+        }
+    
+    
+}
+
+.busquedasSugeridas{
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 1200px;
+    height: 160px;
+    background-color:#B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    .sugerida{
+        margin-top: 11px;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 1057px;
+        height: 36px;
+        background: #CCCCCC;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        text-align: left;
+        &:hover{
+            border: 1.5px dotted #110038;
+        }
+        
+    }
+}
+
+.buscados{
+    z-index: -10;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 10px;
+    display: flex;
+    button{
+        p{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        margin-right: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        &:hover{
+            background-color: #2629CC;
+            color: #FFFFFF;
+        }
+    }
+    
+}
+
+.resultados{
+    display: none;
+    margin-top: 60px;
+    margin-left: 6%;
+    #pResultados{
+        background-color:#FFFAFE;
+        width: 1200px;
+        height: 25px;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+        border: 1px solid #2E32FB;
+        font-size: 14px;
+        color: #110038 ;
+        padding-top:8px;
+        padding-left: 8px;
+    }
+    .resContainer{
+        margin-left: 8px;
+        margin-top: 20px;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 298px 298px 298px 298px 298px;
+        gap: 15px;
+        .res{
+            display: block;
+            /* background-image: url("/assets/Unknown\ traveler5229_square.jpg"); */
+            background-position: center;
+            background-size: cover;
+            
+            
+        }
+    }
+}

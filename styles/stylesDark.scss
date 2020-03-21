@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Chakra Petch',sans-serif;
+    max-width: 1600px;
+}
+body{
+    background-color: #110038;
+}
+
+
+@import "./cssDark/bienvenidoD.scss";
+@import "./cssDark/buscarD.scss";
+@import "./cssDark/navbarD.scss";
+@import "./cssDark/sugerenciasD.scss";
+@import "./cssDark/tendenciasD.scss";
+@import "./cssDark/misGuifosD";
+@import "./cssDark/capturarD";
